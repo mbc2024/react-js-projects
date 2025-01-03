@@ -62,7 +62,7 @@ function App() {
       <Stats items={items} />
       {isModalOpen && (
         <Modal
-          message="Are you sure you want to delete all items?"
+          message="Are you sure you want to delete all items Hello?"
           onConfirm={confirmClearList}
           onCancel={cancelClearList}
         />
